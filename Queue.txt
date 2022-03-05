@@ -1,0 +1,17 @@
+class Solution{
+    
+    public Queue<Integer> push(int arr[], int n)
+    {   Queue<Integer> q = new LinkedList<>();
+    
+        for(int x: arr){
+            q.add(x);
+        } return q;
+    }
+    
+    public void _pop(Queue<Integer> q)
+    {
+        while(q.size()>0){
+            System.out.print(q.remove()+" ");
+        }
+    }
+}
